@@ -7,8 +7,8 @@ Matplotlib is required in order to show the plots. If you only wish to see the f
 `python lab2.py [> rbf.log]`
 OR  
 `python lab2-noplot.py [> rbf.log]`
-
-How to configure the number of base functions, the learning rate and the variance determiner:  
+#How to configure:
+Literally how to change the number of base functions, the learning rate and the variance determiner:  
 1. Open lab2.py (or lab2-noplot.py) with your favorite text editor  
 2. Change the value of K, ETA or MODE at the very beginning of the code, in the section "Environment Variables"  
 3. Run it from command line again!  
