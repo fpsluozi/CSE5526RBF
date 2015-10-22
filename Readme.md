@@ -1,5 +1,7 @@
 # Neural Network Lab 2 for CSE5526 - RBF
 This is a simple implementation of a single input and a single output 1-layer RBF network, using Gaussian kernels and K-Means in training. 
+- The original function is h(x) = 0.5 * sin (2 * pi * x) + 0.4, x within [0.0, 1.0]
+- The training data points are sampled with a +- 0.1 noise at h(x). 
 
 # Dependence
 Matplotlib is required in order to show the plots. If you only wish to see the features of the finalized clusters and the RBF network, run lab2-noplot.py instead.
